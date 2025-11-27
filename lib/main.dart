@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:kairos/cubit/weather_cubit.dart';
+import 'package:kairos/presentation/screens/weather_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +16,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Text("Hello World This Is Kairos"),
+      home: BlocProvider(
+        create: (context) => WeatherCubit(),
+        child: const WeatherScreen(),
+      ),
     );
   }
 }
