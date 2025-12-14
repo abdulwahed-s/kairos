@@ -17,6 +17,16 @@ Kairos is a modern, feature-rich weather application built with Flutter. It prov
 -   **Animated UI**: Features dynamic backgrounds and smooth transitions for an immersive user experience.
 -   **Permission Handling**: Robust handling of location permissions and service status.
 
+## Screenshots
+
+<div align="center">
+  <img src="assets/preview/flutter_01.png" alt="Kairos Weather App Screenshot 1" width="200" />
+  <img src="assets/preview/flutter_02.png" alt="Kairos Weather App Screenshot 2" width="200" />
+  <img src="assets/preview/flutter_03.png" alt="Kairos Weather App Screenshot 3" width="200" />
+  <img src="assets/preview/flutter_04.png" alt="Kairos Weather App Screenshot 4" width="200" />
+  <img src="assets/preview/flutter_05.png" alt="Kairos Weather App Screenshot 5" width="200" />
+</div>
+
 ## Tech Stack
 
 -   **Flutter**: UI toolkit for building natively compiled applications.
